@@ -13,5 +13,11 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
    res.render('about');	
 })
+app.get('/resume', (req, res) => {
+   res.render('resume');	
+})
+app.get('/projects', (req, res) => {
+   res.render('projects');	
+})
 
 app.listen("4000", () => console.log("up and running"));

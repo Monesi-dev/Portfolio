@@ -928,6 +928,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.portfolio-null {
+  color: rgba(0, 0, 0, 0);
+}
+
 .portfolio-details {
   padding-top: 0;
 }
@@ -1119,3 +1123,6 @@ section {
 #footer .credits a {
   color: #34b7a7;
 }
+#footer span {
+  color: rgb(52, 183, 167)
+} 
